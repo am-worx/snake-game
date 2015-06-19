@@ -71,7 +71,7 @@
     	clearInterval(timing);
     	alert('GAME OVER!\nYour result is ' + snakeL + '!');
     	gameIsOver = true;
-    	return 0;
+    	return;
 	}
 	var timing = setInterval(controllingSnake, speedMs);
 	function controllingSnake() {
